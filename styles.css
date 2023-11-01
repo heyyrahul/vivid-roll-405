@@ -12,43 +12,116 @@ body {
 
 .rahul {
   height: 2608px;
-  background-color: rgb(239, 218, 192);
+  background-color: white;
 }
 
 .about {
-  height: 304px;
   background-color: #434ccc;
+  padding: 0px 135px;
 }
 .about nav {
   height: 80px;
-  border: 1px solid;
+  background-color: #434ccc;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
-.about nav .logo p {
-  font-size: 36px;
-  font-family: "Lora", serif;
-  color: white;
-  font-weight: 800;
+.about nav .logo h3 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "DM Serif Display", serif;
+}
+.about nav .logo h3:hover {
+  cursor: pointer;
 }
 .about nav .links {
   width: 534px;
   height: 48px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 .about nav .links a {
-  color: white;
-  font-family: Inter, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
 }
-.about nav .links #sign {
-  padding: 16px;
-  border-radius: 1px solid black;
-  color: white;
+.about nav .links button {
+  height: 48px;
+  width: 170px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgb(67, 76, 204);
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.about nav .menubar {
+  display: flex;
+  justify-content: end;
+}
+.about nav .menubar > svg {
+  display: none;
+}
+.about .upper2 {
+  height: 224px;
   background-color: #434ccc;
 }
+.about .upper2 h1 {
+  padding-top: 47px;
+  color: var(--Text_White, #fff);
+  text-align: center;
+  /* H1 */
+  font-family: "DM Serif Display", serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+  margin-bottom: 0px;
+}
+.about .upper2 p {
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 10px;
+}
 
+@media (max-width: 375px) {
+  #parent .rahul .about {
+    padding: 0px 14px;
+  }
+  nav {
+    width: 346px;
+    height: 32px;
+  }
+  nav .logo {
+    width: 62px;
+    height: 32px;
+    left: 250;
+  }
+  #parent .rahul .about nav .links a {
+    display: none;
+  }
+  #parent .rahul .about nav .links button {
+    display: none;
+  }
+  #parent .rahul .about nav .links svg {
+    flex-shrink: 0;
+    display: block;
+  }
+}
 .asif {
   height: 1248px;
   background-color: rgb(11, 228, 29);
