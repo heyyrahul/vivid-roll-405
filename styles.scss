@@ -1,37 +1,28 @@
-#parent{
-    width: 100%;
-    height: 6144px;
-    box-sizing: border-box;
-    background-color: rgb(169, 253, 225);
+$bgclr: #434ccc;
 
+#parent {
+  width: 100%;
+  height: 6144px;
+  box-sizing: border-box;
+  background-color: rgb(169, 253, 225);
 }
-body{
-    margin: 0px;
-    padding: 0px;
-}
-.rahul{
-    height: 2608px;
-    background-color: bisque;
-}
-.asif{
-    height: 1248px;
-    background-color: cadetblue;
-}
-.mayank{
-    height: 1535px;
-    background-color: darkcyan;
-}
-.anusha{
-    height: 752px;
-    background-color: yellowgreen;
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
-#parent2{
-    width: 100%;
-    height: 2304px;
-    background-color: cyan;
+@import "rahul.scss";
+@import "asif.scss";
+@import "gaurav.scss";
+@import "mayank.scss";
+@import "anusha.scss";
+
+
+
+
+#parent2 {
+  width: 100%;
+  height: 2304px;
+  background-color: cyan;
 }
-.gaurav{
-height: 1552px;
-background-color:pink;
-}
+

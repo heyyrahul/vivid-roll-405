@@ -1,0 +1,45 @@
+.rahul {
+    height: 2608px;
+    background-color: bisque;
+  }
+  .about {
+    height: 304px;
+    background-color: $bgclr;
+  
+    nav {
+      height: 80px;
+      border: 1px solid;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .logo {
+        p {
+          font-size: 36px;
+          font-family: "Lora", serif;
+          color: white;
+          font-weight: 800;
+        }
+      }
+      .links {
+        
+          width: 534px;
+          height: 48px;
+         display: flex;
+         justify-content: space-between;
+          a {
+            color: white;
+            font-family: Inter, sans-serif;
+           
+          }
+          #sign{
+              
+              padding: 16px ;
+              border-radius: 1px solid black;
+              color: white;
+             background-color: #434ccc;
+          }
+        
+      }
+    }
+  }
