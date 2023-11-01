@@ -1,4 +1,193 @@
 .asif {
   height: 1248px;
   background-color: rgb(11, 228, 29);
+  h2 {
+    color: var(--Text_White, #fff);
+
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+  }
+
+  p {
+    color: var(--Text_White, #fff);
+    text-align: center;
+
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  display: flex;
+  flex-direction: column;
+  height: 1248px;
+  background-color: rgb(240, 8, 8);
+
+  #sub-1 {
+    display: flex;
+    flex-direction: column;
+    background: #434ccc;
+    height: 480px;
+
+    .upper {
+      text-align: center;
+      height: 252px;
+
+      h1 {
+        color: var(--Text_White, #fff);
+        text-align: center;
+
+        /* H1 */
+        font-family: DM Serif Display;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        // line-height: 80px; /* 111.111% */
+      }
+      p {
+        width: 770px;
+        text-align: center;
+        margin: auto;
+      }
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      height: 228px;
+      .item {
+        display: flex;
+        flex-direction: column;
+      }
+      p {
+        color: var(--text-white-50, rgba(255, 255, 255, 0.5));
+        text-align: center;
+
+        /* Text_Gray */
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        margin-top: 0px;
+      }
+
+      h1 {
+        color: var(--Text_White, #fff);
+        text-align: center;
+        margin-bottom: 0px;
+
+        /* H1 */
+        font-family: DM Serif Display;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 80px; /* 111.111% */
+      }
+    }
+  }
+
+  #sub-2 {
+    background-color: rgb(231, 147, 21);
+    height: 768px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .asif {
+    h2 {
+      color: var(--Text_White, #fff);
+
+      font-family: DM Serif Display;
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 64px;
+    }
+
+    p {
+      color: var(--Text_White, #fff);
+      text-align: center;
+
+      font-family: DM Sans;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+    }
+    display: flex;
+    flex-direction: column;
+    height: 898px;
+    background-color: rgb(240, 8, 8);
+
+    #sub-1 {
+      display: flex;
+      flex-direction: column;
+      background: #434ccc;
+      height: 480px;
+
+      .upper {
+        text-align: center;
+        height: 252px;
+
+        h1 {
+          color: var(--Text_White, #fff);
+          text-align: center;
+
+          /* H1 */
+          font-family: DM Serif Display;
+          font-size: 72px;
+          font-style: normal;
+          font-weight: 400;
+          // line-height: 80px; /* 111.111% */
+        }
+        p {
+          width: 770px;
+          text-align: center;
+          margin: auto;
+        }
+      }
+
+      .bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 228px;
+        .item {
+          display: flex;
+          flex-direction: column;
+        }
+        // p {
+        //   color: var(--text-white-50, rgba(255, 255, 255, 0.5));
+        //   text-align: center;
+
+        //   /* Text_Gray */
+        //   font-family: DM Sans;
+        //   font-size: 16px;
+        //   font-style: normal;
+        //   font-weight: 400;
+        //   line-height: 24px; /* 150% */
+        //   margin-top: -50px;
+        // }
+
+        // h1 {
+        //   color: var(--Text_White, #fff);
+        //   text-align: center;
+
+        //   /* H1 */
+        //   font-family: DM Serif Display;
+        //   font-size: 72px;
+        //   font-style: normal;
+        //   font-weight: 400;
+        //   line-height: 80px; /* 111.111% */
+        // }
+      }
+    }
+
+    #sub-2 {
+    }
+  }
 }
