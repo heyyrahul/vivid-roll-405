@@ -32,8 +32,6 @@ body {
   color: #fff;
   font-weight: 400;
   font-family: "DM Serif Display", serif;
-}
-.about nav .logo h3:hover {
   cursor: pointer;
 }
 .about nav .links {
@@ -64,18 +62,15 @@ body {
   font-weight: 700;
   cursor: pointer;
 }
-.about nav .menubar {
-  display: flex;
-  justify-content: end;
-}
-.about nav .menubar > svg {
+.about nav .links svg {
   display: none;
 }
-.about .upper2 {
+
+.upper2 {
   height: 224px;
   background-color: #434ccc;
 }
-.about .upper2 h1 {
+.upper2 h1 {
   padding-top: 47px;
   color: var(--Text_White, #fff);
   text-align: center;
@@ -87,7 +82,7 @@ body {
   line-height: 80px;
   margin-bottom: 0px;
 }
-.about .upper2 p {
+.upper2 p {
   padding-top: 10px;
   color: white;
   text-align: center;
@@ -103,13 +98,19 @@ body {
     padding: 0px 14px;
   }
   nav {
-    width: 346px;
+    width: 90%;
     height: 32px;
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
   }
   nav .logo {
     width: 62px;
     height: 32px;
-    left: 250;
+  }
+  #parent .rahul .about nav .links {
+    justify-content: end;
+    justify-items: end;
   }
   #parent .rahul .about nav .links a {
     display: none;
@@ -118,13 +119,166 @@ body {
     display: none;
   }
   #parent .rahul .about nav .links svg {
+    align-items: center;
     flex-shrink: 0;
     display: block;
+    position: absolute;
+  }
+  #parent .rahul .standv {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 0px;
+  }
+  #parent .rahul .standv .contentdebet {
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-left: 0px;
+  }
+  #parent .rahul .standv .twoperson {
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
+.standv {
+  height: 768px;
+  background-color: #f5f6fc;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 0px;
+  padding-top: 127px;
+  padding-left: 135px;
+}
+.standv .contentdebet .homero {
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  width: 93px;
+  height: 24px;
+  margin-bottom: -50px;
+}
+.standv .contentdebet .headcheck {
+  font-size: 56px;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  width: 411px;
+  height: 128px;
+}
+.standv .contentdebet .quo {
+  font-size: 20px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  width: 570px;
+  height: 83px;
+}
+.standv .contentdebet .subcontent {
+  display: flex;
+  margin-top: -50px;
+}
+
+.number {
+  font-size: 40px;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  width: 86px;
+  height: 48px;
+}
+
+.vocent {
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  width: 114px;
+  height: 24px;
+}
+
+.nominavi {
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  width: 270px;
+  height: 49px;
+  opacity: 50%;
+}
+
+.twoperson img {
+  position: absolute;
+  right: 105px;
+  top: 355px;
+  left: 520px;
+}
+
+.notone {
+  height: 1px;
+  opacity: 0.0974;
+  background: #000;
+  margin-bottom: 0px;
+}
+
+.buscar {
+  height: 768px;
+  background-color: #f5f6fc;
+  margin-top: -56px;
+  text-align: center;
+  padding-top: 100px;
+  justify-content: center;
+}
+.buscar .onetwo {
+  font-size: 56px;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  width: 469px;
+  height: 64px;
+  margin-left: 520px;
+}
+.buscar .house {
+  margin: 0px 135px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.buscar .house .housemini {
+  background-color: white;
+  padding: 60px 0px 0px 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.buscar .house .housemini .househead {
+  font-size: 24px;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  width: 162px;
+  height: 32px;
+}
+.buscar .house .housemini .nexthead {
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  width: 306px;
+  height: 48px;
+  opacity: 50%;
+  text-align: left;
+}
+.buscar .house .housemini .learnkaro {
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  height: 24px;
+}
+
 .asif {
   height: 1248px;
-  background-color: rgb(11, 228, 29);
+  background-color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   height: 1248px;
@@ -270,6 +424,29 @@ body {
 .gaurav {
   height: 1552px;
   background-color: pink;
+}
+
+.outer {
+  margin-top: 64px;
+  margin-left: 135px;
+  margin-right: 153px;
+  margin-bottom: 0px;
+  width: 1170px;
+  height: 640px;
+  flex-shrink: 10;
+  background: #9543cc;
+  background-blend-mode: hard-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  width: 108px;
+  height: 108px;
+  flex-shrink: 0;
+  align-items: center;
+  line-height: 150px;
 }
 
 .mayank {
