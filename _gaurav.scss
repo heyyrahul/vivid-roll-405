@@ -1,30 +1,28 @@
 .gaurav {
-    height: 1552px;
-    background-color: pink;
-  }
-
-  .outer{
-    margin-top: 64px;
-    margin-left:135px;
-    margin-right: 153px;
-    margin-bottom: 0px;
-    width: 1170px; 
-    height: 640px;
-    flex-shrink: 10;
-    background: #9543cc;
-    background-blend-mode: hard-light;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // mask:calc( );
+  height: 1552px;
+  background-color: pink;
 }
 
-.inner{
-    width: 108px;
-    height: 108px;
-    flex-shrink: 0; 
-    align-items: center;
-    line-height: 150px;
+.outer {
+  margin-top: 64px;
+  margin-left: 135px;
+  margin-right: 153px;
+  margin-bottom: 0px;
+  width: 1170px;
+  height: 640px;
+  flex-shrink: 10;
+  background: #9543cc;
+  background-blend-mode: hard-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // mask: calc();
+}
 
-
+.inner {
+  width: 108px;
+  height: 108px;
+  flex-shrink: 0;
+  align-items: center;
+  line-height: 150px;
 }
