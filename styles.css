@@ -485,14 +485,15 @@ body {
 .mayank {
   height: 1535px;
   background-color: #f5f6fc;
-  border: 2px solid black;
-  display: flex;
 }
 .mayank * {
   margin: 0;
   padding: 0;
 }
-.mayank .mountain {
+.mayank .one {
+  display: flex;
+}
+.mayank .one .mountain {
   width: 570px;
   height: 480px;
   margin-top: 143px;
@@ -501,18 +502,18 @@ body {
   background-size: cover;
   border-radius: 2px;
 }
-.mayank .right {
+.mayank .one .right {
   width: 570px;
   height: 337px;
   margin-top: 191px;
   margin-left: 130px;
 }
-.mayank .right .tantas {
+.mayank .one .right .tantas {
   width: 81px;
   height: 24px;
   color: var(--Text_Black, #000);
 }
-.mayank .right .tantas h5 {
+.mayank .one .right .tantas h5 {
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -522,13 +523,13 @@ body {
   letter-spacing: 4.8px;
   text-transform: uppercase;
 }
-.mayank .right .an {
+.mayank .one .right .an {
   width: 411px;
   height: 128px;
   color: var(--Text_Black, #000);
   margin-top: 21px;
 }
-.mayank .right .an h2 {
+.mayank .one .right .an h2 {
   font-family: DM Serif Display;
   font-size: 56px;
   font-style: normal;
@@ -536,46 +537,152 @@ body {
   line-height: 64px;
   /* 114.286% */
 }
-.mayank .right .vix {
+.mayank .one .right .vix {
   width: 470px;
   height: 103px;
   flex-shrink: 0;
   margin-top: 29px;
 }
-.mayank .right .vix p {
+.mayank .one .right .vix p {
   color: var(--Text_Black, #000);
   /* Text_Big */
   font-family: DM Sans;
-  font-size: 20px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
   /* 160% */
 }
-.mayank .right .read {
+.mayank .one .right .read {
   width: 170px;
   height: 48px;
   margin-top: 32px;
   flex-shrink: 0;
   border-radius: 5px;
-  background: var(--Primary_1, #434CCC);
+  background-color: #434CCC;
 }
-.mayank .right .read button {
-  margin-top: 13px;
-  margin-left: 43.5px;
+.mayank .one .right .read .my {
+  padding-top: 13px;
+  padding-left: 43.5px;
   color: #FFF;
-  background: var(--Primary_1, #434CCC);
-  text-align: center;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
 }
-.mayank .right .read:hover {
+.mayank .one .right .read:hover {
   border: 3px solid #303ac9;
   border-radius: 0px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.mayank .line2 {
+  height: 1px;
+  opacity: 0.0974;
+  background: #000;
+  margin-top: 144px;
+}
+.mayank .nihil {
+  height: 767px;
+  display: flex;
+}
+.mayank .nihil .left1 {
+  width: 470px;
+  height: 470px;
+  margin-left: 135px;
+  margin-top: 143px;
+}
+.mayank .nihil .left1 .noluisse {
+  color: var(--Text_Black, #000);
+  width: 107px;
+  height: 24px;
+}
+.mayank .nihil .left1 .noluisse h5 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.mayank .nihil .left1 .usu {
+  width: 342px;
+  height: 128px;
+  color: #000;
+  margin-top: 21px;
+}
+.mayank .nihil .left1 .usu h2 {
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  /* 114.286% */
+}
+.mayank .nihil .left1 .level {
+  margin-top: 45px;
+}
+.mayank .nihil .left1 .level .epi {
+  margin-top: 31px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mayank .nihil .left1 .level .epi .epicuri {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.mayank .nihil .left1 .level .epi .b1 {
+  color: var(--Text_Black, #000);
+  text-align: right;
+  /* Text */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+.mayank .nihil .left1 .level .co {
+  width: 470px;
+  height: 10px;
+  border-radius: 5px;
+  background: #E9E9E9;
+}
+.mayank .nihil .left1 .level .co #a1 {
+  width: 382px;
+  height: 10px;
+  background: #F1B505;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+.mayank .nihil .left1 .level .co #a2 {
+  width: 318px;
+  height: 10px;
+  background: #E94A47;
+  border-radius: 5px;
+}
+.mayank .nihil .left1 .level .co #a3 {
+  width: 182px;
+  height: 10px;
+  background: #428DFC;
+  border-radius: 5px;
+}
+.mayank .nihil .right1 {
+  width: 800px;
+  height: 900px;
+  position: absolute;
+  left: 524px;
+  top: 4626px;
+}
+.mayank .nihil .right1 .ladder {
+  width: 100%;
+  padding-bottom: 62px;
 }
 
 .anusha {
