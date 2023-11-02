@@ -1,28 +1,48 @@
 .gaurav {
-  height: 1552px;
-  background-color: pink;
-}
-
-.outer {
+  width: 100%;
+ height: 1248px;
+ flex-shrink: 0;
+ margin: 0px;
+ padding: 0px;
+ background-color: rgb(196, 171, 175);
+  }
+.outer{
+  position:relative;
   margin-top: 64px;
   margin-left: 135px;
-  margin-right: 153px;
-  margin-bottom: 0px;
+  margin-right: 135px;
   width: 1170px;
   height: 640px;
-  flex-shrink: 10;
-  background: #9543cc;
-  background-blend-mode: hard-light;
-  display: flex;
+//  background-size: cover;
+
+}
+.inner{
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  color: #FFFFFF;
   justify-content: center;
   align-items: center;
-  // mask: calc();
+
 }
 
-.inner {
-  width: 108px;
-  height: 108px;
-  flex-shrink: 0;
-  align-items: center;
-  line-height: 150px;
+.bitmap-icon{
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  background: #434CCC;
+
+  background-blend-mode:screen;
+
+}
+.message>h2{
+  color: var(Text_Black, #000);
+  margin-left: 135px;
+/* H2 */
+font-family: DM Serif Display;
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+line-height: 64px; /* 114.286% */
 }
