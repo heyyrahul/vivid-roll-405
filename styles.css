@@ -278,7 +278,10 @@ body {
 
 .asif {
   height: 1248px;
+<<<<<<< Updated upstream
   background-color: #1b24a6;
+=======
+>>>>>>> Stashed changes
   display: flex;
   flex-direction: column;
   background-color: rgb(240, 8, 8);
