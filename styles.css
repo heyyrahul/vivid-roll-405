@@ -278,6 +278,7 @@ body {
 
 .asif {
   height: 1248px;
+  background-color: #434ccc;
   display: flex;
   flex-direction: column;
   background-color: rgb(240, 8, 8);
