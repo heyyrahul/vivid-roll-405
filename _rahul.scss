@@ -86,7 +86,13 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
+    #parent{
+      .rahul{
+        height: auto;
+      }
+    }
+
   #parent .rahul .about {
     padding: 0px 14px;
   }
@@ -120,39 +126,89 @@
       position: absolute;
     }
   }
-
-  #parent {
-    .rahul {
-      .standv {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        padding: 0px;
-        .contentdebet {
-          height: fit-content;
-          margin-left: 0px;
+    #parent{
+      .rahul{
+        .standv{
+          margin-bottom: -300px;
+          // max-width: 375px;
+          padding: 0px;
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: repeat(2,1fr);
+          .contentdebet{
+            .subcontent{
+              display: flex;
+              flex-direction: column;
+            }
+          }
         }
-        .twoperson {
-          // width: 100px;
-          height: fit-content;
-          img {
-            // position: absolute;
-            // left: -300px;
+        .twoperson{
+      
+          img{
+            position: relative;
+            top: 0px;
+            left: -170px;
+  //  width: fit-content;
+   width: 110%;
           }
         }
       }
     }
-  }
+    #parent{
+      .buscar{
+        height: auto;
+        .onetwo{
+          margin-left: -50px;
+         font-size: 45px;
+        }
+        .tunekya{
+          br{
+            display: none;
+          }
+        }
+      }
+      .house{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+      }
+    }
+    #parent{
+      .shakehands{
+        height: fit-content;
+        
+        grid-template-columns: repeat(1,1fr);
+      }
+      .handimg{
+        margin-left: -200px;
+      }
+      .handcontent{
+        .deterr{
+          font-size: 43px;
+        }
+        .mazim{
+        font-size: 18px;
+        .nextlinedrop{
+          display: block;
+        }
+        .shouldshow{
+          display: block;
+        }
+        .shouldhide{
+          display: none;
+        }
+        }
+      }
+    }
+
 }
 
 .standv {
-  height: 768px;
+  height: fit-content;
   background-color: #f5f6fc;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   // padding: 127px 0px 0px 135px;
-  padding-bottom: 0px;
-  padding-top: 127px;
+  padding-bottom: 100px;
+  padding-top: 80px;
   padding-left: 135px;
   .contentdebet {
     // width: 570px;
@@ -280,9 +336,100 @@
         font-family: "DM Sans";
         font-weight: 700;
         color: rgba(0, 0, 0, 1);
-    text-align: left  ;
+        text-align: left;
         height: 24px;
       }
     }
+  }
+}
+
+.shakehands {
+  height: 768px;
+  // background-color: aquamarine;
+  margin-top: -10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  // padding-top: 127px;
+  padding-right: 100px;
+  padding-bottom: 170px;
+  background-color: #f5f6fc;
+  .handimg {
+    // background-image: url(shakepic.png);
+    height: 570px;
+  }
+  .handcontent {
+    height: 570px;
+    // background-color: aquamarine;
+    margin-top: 127px;
+    .inci {
+      font-size: 16px;
+      font-family: "DM Sans";
+      font-weight: 500;
+      color: rgba(0, 0, 0, 1);
+      width: 127px;
+      height: 24px;
+    }
+    .deterr {
+      font-size: 56px;
+      font-family: "DM Serif Display";
+      font-weight: 400;
+      color: rgba(0, 0, 0, 1);
+      width: 478px;
+      height: 64px;
+    }
+    .mazim {
+      font-size: 20px;
+      font-family: "DM Sans";
+      font-weight: 400;
+      color: rgba(0, 0, 0, 1);
+      width: 570px;
+      height: 69px;
+      .nextlinedrop{
+        display: none;
+      }
+      .shouldshow{
+        display: none;
+      }
+    }
+    .starcontent {
+      display: flex;
+      gap: 23px;
+      // align-items: center;
+      margin-bottom: 2px;
+      .starcontentmaterial {
+        font-size: 16px;
+        font-family: "DM Sans";
+        font-weight: 400;
+        color: rgba(0, 0, 0, 1);
+        width: 216px;
+        height: 24px;
+        opacity: 50%;
+      }
+    }
+    .explorekaro{
+      margin-top: 50px;
+      background-color: #434ccc;
+      cursor: pointer;
+      width: 170px;
+      height: 48px;
+      font-family: "DM Sans";
+font-weight: 700;
+color: rgba(255, 255, 255, 1);
+border: none;
+border-radius: 5px;
+    }
+.learnkaro{
+  margin-left: 30px;
+  border-color: #BCC0ED;
+  cursor: pointer;
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;   
+  color:#434ccc;
+  font-family: "DM Sans";
+  font-weight: 700;
+  background-color: #f5f6fc;
+  
+}
   }
 }

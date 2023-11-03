@@ -93,7 +93,10 @@ body {
   margin-top: 10px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
+  #parent .rahul {
+    height: auto;
+  }
   #parent .rahul .about {
     padding: 0px 14px;
   }
@@ -125,28 +128,67 @@ body {
     position: absolute;
   }
   #parent .rahul .standv {
-    display: grid;
+    margin-bottom: -300px;
+    padding: 0px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    padding: 0px;
   }
-  #parent .rahul .standv .contentdebet {
+  #parent .rahul .standv .contentdebet .subcontent {
+    display: flex;
+    flex-direction: column;
+  }
+  #parent .rahul .twoperson img {
+    position: relative;
+    top: 0px;
+    left: -170px;
+    width: 110%;
+  }
+  #parent .buscar {
+    height: auto;
+  }
+  #parent .buscar .onetwo {
+    margin-left: -50px;
+    font-size: 45px;
+  }
+  #parent .buscar .tunekya br {
+    display: none;
+  }
+  #parent .house {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px;
+  }
+  #parent .shakehands {
     height: -moz-fit-content;
     height: fit-content;
-    margin-left: 0px;
+    grid-template-columns: repeat(1, 1fr);
   }
-  #parent .rahul .standv .twoperson {
-    height: -moz-fit-content;
-    height: fit-content;
+  #parent .handimg {
+    margin-left: -200px;
+  }
+  #parent .handcontent .deterr {
+    font-size: 43px;
+  }
+  #parent .handcontent .mazim {
+    font-size: 18px;
+  }
+  #parent .handcontent .mazim .nextlinedrop {
+    display: block;
+  }
+  #parent .handcontent .mazim .shouldshow {
+    display: block;
+  }
+  #parent .handcontent .mazim .shouldhide {
+    display: none;
   }
 }
 .standv {
-  height: 768px;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: #f5f6fc;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-bottom: 0px;
-  padding-top: 127px;
+  padding-bottom: 100px;
+  padding-top: 80px;
   padding-left: 135px;
 }
 .standv .contentdebet .homero {
@@ -274,6 +316,91 @@ body {
   color: rgb(0, 0, 0);
   text-align: left;
   height: 24px;
+}
+
+.shakehands {
+  height: 768px;
+  margin-top: -10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-right: 100px;
+  padding-bottom: 170px;
+  background-color: #f5f6fc;
+}
+.shakehands .handimg {
+  height: 570px;
+}
+.shakehands .handcontent {
+  height: 570px;
+  margin-top: 127px;
+}
+.shakehands .handcontent .inci {
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  width: 127px;
+  height: 24px;
+}
+.shakehands .handcontent .deterr {
+  font-size: 56px;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  width: 478px;
+  height: 64px;
+}
+.shakehands .handcontent .mazim {
+  font-size: 20px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  width: 570px;
+  height: 69px;
+}
+.shakehands .handcontent .mazim .nextlinedrop {
+  display: none;
+}
+.shakehands .handcontent .mazim .shouldshow {
+  display: none;
+}
+.shakehands .handcontent .starcontent {
+  display: flex;
+  gap: 23px;
+  margin-bottom: 2px;
+}
+.shakehands .handcontent .starcontent .starcontentmaterial {
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  width: 216px;
+  height: 24px;
+  opacity: 50%;
+}
+.shakehands .handcontent .explorekaro {
+  margin-top: 50px;
+  background-color: #434ccc;
+  cursor: pointer;
+  width: 170px;
+  height: 48px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+}
+.shakehands .handcontent .learnkaro {
+  margin-left: 30px;
+  border-color: #BCC0ED;
+  cursor: pointer;
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  color: #434ccc;
+  font-family: "DM Sans";
+  font-weight: 700;
+  background-color: #f5f6fc;
 }
 
 .asif {
@@ -501,6 +628,33 @@ body {
   line-height: 64px; /* 114.286% */
 }
 
+@media (max-width: 375px) {
+  #parent2 .gaurav {
+    height: auto;
+  }
+  #parent2 .gaurav .about {
+    padding: 0px 14px;
+  }
+  #parent2 .gaurav .about nav .links {
+    justify-content: end;
+    justify-items: end;
+  }
+  #parent2 .gaurav .about nav .links a {
+    display: none;
+  }
+  #parent2 .gaurav .about nav .links button {
+    display: none;
+  }
+  #parent2 .gaurav .about nav .links svg {
+    align-items: center;
+    flex-shrink: 0;
+    display: block;
+    position: absolute;
+  }
+  #parent2 .gaurav .about .upper2 p {
+    text-align: left;
+  }
+}
 .mayank {
   height: 1535px;
   background-color: #f5f6fc;
@@ -712,5 +866,4 @@ body {
 #parent2 {
   width: 100%;
   height: 2304px;
-  background-color: cyan;
 }/*# sourceMappingURL=styles.css.map */
