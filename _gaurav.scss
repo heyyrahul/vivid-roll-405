@@ -46,3 +46,36 @@ font-style: normal;
 font-weight: 400;
 line-height: 64px; /* 114.286% */
 }
+
+@media (max-width:375px){
+
+  #parent2{
+    .gaurav{
+      height: auto;
+    }
+  }
+  #parent2 .gaurav .about {
+    padding: 0px 14px;
+  }
+  #parent2 .gaurav .about nav .links {
+    justify-content: end;
+    justify-items: end;
+    a {
+      display: none;
+    }
+    button {
+      display: none;
+    }
+    svg {
+      align-items: center;
+      flex-shrink: 0;
+      display: block;
+      position: absolute;
+    }
+  }
+  #parent2 .gaurav .about .upper2 p{
+    text-align: left;
+  }
+
+
+}
