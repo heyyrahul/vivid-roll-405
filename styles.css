@@ -711,7 +711,7 @@ body {
 }
 .gaurav {
   width: 100%;
-  height: 1248px;
+  height: 1552px;
   flex-shrink: 0;
   margin: 0%;
   background-color: #f5f6fc;
@@ -730,7 +730,6 @@ body {
 .map {
   position: relative;
   margin-top: 64px;
-  margin-bottom: 544px;
   width: 1170px;
   height: 640px;
   background-image: url(bitmap@2x.png);
@@ -755,10 +754,9 @@ body {
 }
 
 .mainD {
+  margin-top: 63px;
   width: 1170px;
   height: 404px;
-  border: solid 2px;
-  border-color: black;
   display: flex;
 }
 
@@ -767,8 +765,6 @@ body {
   padding-bottom: 0%;
   width: 835px;
   height: 404px;
-  border: solid 2px;
-  border-color: black;
 }
 .message1 h2 {
   color: var(--Text_Black, #161515);
@@ -785,8 +781,6 @@ body {
   margin-top: 0px;
   width: 835px;
   height: 76px;
-  border: solid 2px;
-  border-color: black;
   display: inline-block;
 }
 
@@ -794,8 +788,6 @@ body {
   width: 401px;
   height: 76px;
   flex-shrink: 0;
-  border: solid 2px;
-  border-color: black;
   display: inline-block;
 }
 
@@ -804,8 +796,6 @@ body {
   width: 401px;
   height: 76px;
   margin-left: 22.5px;
-  border: solid 2px;
-  border-color: black;
 }
 
 .name2 {
@@ -840,7 +830,6 @@ input[type=text] {
   width: 834px;
   height: 172px;
   flex-shrink: 0;
-  border: solid 2px;
 }
 
 .textarea1 {
@@ -877,8 +866,6 @@ input[type=text] {
 
 .info1 {
   height: 404px;
-  border: solid 2px;
-  border-color: black;
   margin: 0%;
   margin-left: 60px;
   width: 270px;
@@ -897,26 +884,21 @@ input[type=text] {
 .lok {
   width: 270px;
   height: 49px;
+  margin-top: 36px;
   display: flex;
-  border: solid 2px;
-  border-color: black;
 }
 
 .call {
-  margin-top: 42px;
+  margin-top: 25px;
   width: 270px;
   height: 49px;
-  border: solid 2px;
-  border-color: black;
   display: flex;
 }
 
 .masg {
-  margin-top: 42px;
+  margin-top: 25px;
   width: 270px;
   height: 49px;
-  border: solid 2px;
-  border-color: black;
   display: flex;
 }
 
@@ -924,8 +906,6 @@ input[type=text] {
   margin-top: 47px;
   width: 270px;
   height: 49px;
-  border: solid 2px;
-  border-color: black;
 }
 
 .lok2 {
@@ -988,6 +968,145 @@ input[type=text] {
   line-height: 24px; /* 150% */
 }
 
+.allsymb {
+  margin-top: 47px;
+  width: 270px;
+  height: 49px;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.allsymb1 {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.f1 {
+  position: absolute;
+  width: 9px;
+  height: 18px;
+  flex-shrink: 0;
+  fill: #FFF;
+  padding-left: 1%;
+  padding-top: 0.7%;
+}
+
+.allsymb2 {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.twe1 {
+  position: absolute;
+  width: 18px;
+  height: 15px;
+  flex-shrink: 0;
+  fill: #FFF;
+  padding-top: 7px;
+  padding-left: 7px;
+}
+
+.snap1 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  fill: #FFF;
+  padding-top: 7px;
+  padding-left: 7px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 375px) {
+  #parent2 .gaurav .outer {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  #parent2 .gaurav .outer .map {
+    width: 347px;
+    height: 190px;
+  }
+  #parent2 .gaurav .outer .map .pointers {
+    margin-left: 138px;
+    margin-top: 59px;
+  }
+  #parent2 .gaurav .outer .map .pointers .op1 {
+    width: 72px;
+    height: 72px;
+  }
+  #parent2 .gaurav .outer .mainD {
+    margin-top: 44px;
+    width: 347px;
+    height: 918px;
+    display: block;
+  }
+  #parent2 .gaurav .outer .mainD .message1 {
+    width: 347px;
+    height: 438px;
+  }
+  #parent2 .gaurav .outer .mainD .message1 .h2 {
+    font-size: 40px;
+    line-height: 48px; /* 120% */
+  }
+  #parent2 .gaurav .outer .mainD .message1 .colect {
+    width: 346px;
+    height: 140px;
+    margin: 0%;
+    display: block;
+  }
+  #parent2 .gaurav .outer .mainD .message1 .colect .name1 {
+    width: 346px;
+    height: 76px;
+  }
+  #parent2 .gaurav .outer .mainD .message1 .colect .name1 .name2 {
+    margin: 0%;
+    margin-top: 38px;
+    width: 346px;
+    height: 48px;
+  }
+  #parent2 .gaurav .outer .mainD .message1 .colect .email1 {
+    width: 346px;
+    height: 76px;
+    margin: 0%;
+  }
+  #parent2 .gaurav .outer .mainD .message1 .colect .email1 .name2 {
+    margin: 0%;
+    margin-top: 28px;
+    width: 346px;
+    height: 48px;
+  }
+  #parent2 .gaurav .outer .mainD .message1 .textarea {
+    width: 347px;
+    height: 172px;
+  }
+  #parent2 .gaurav .outer .mainD .message1 .textarea .textarea1 {
+    margin-top: 28px;
+    width: 347px;
+    height: 172px;
+  }
+  #parent2 .gaurav .outer .mainD .message1 .bt1 {
+    margin-top: 70px;
+  }
+  #parent2 .gaurav .outer .mainD .info1 {
+    width: 347px;
+    height: 404px;
+    margin: 0%;
+    margin-top: 150px;
+  }
+  #parent2 .gaurav .outer .mainD .info1 .h2 {
+    font-size: 40px;
+    line-height: 48px; /* 120% */
+  }
+}
 @media (max-width: 375px) {
   #parent .mayank .line1 {
     height: 2px;
