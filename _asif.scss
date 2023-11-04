@@ -47,7 +47,6 @@
         color: var(--Text_White, #fff);
         text-align: center;
 
-        /* H1 */
         font-family: DM Serif Display;
         font-size: 72px;
         font-style: normal;
@@ -65,6 +64,8 @@
       justify-content: space-around;
       flex-wrap: wrap;
       height: 228px;
+      width: 85%;
+      margin: auto;
 
       @media (max-width: 768px) {
         flex-direction: column;
@@ -116,58 +117,79 @@
     align-items: center;
 
     @media (max-width: 768px) {
-      height: auto; // Adjust height for mobile if necessary
-      flex-direction: column; // Stack children vertically on mobile
-      padding: 20px 0; // Add some padding at the top and bottom (optional)
+      height: auto;
+      flex-direction: column;
+      padding: 20px 0;
     }
     .wrap {
       display: flex;
       justify-content: space-between;
-      // background-color: rgb(109, 107, 131);
       height: 70%;
-      width: 80%;
+      width: 85%;
+      margin: auto;
 
       @media (max-width: 768px) {
-        flex-direction: column; // Stack children vertically on mobile
+        flex-direction: column;
+        // margin-top: 110px;
       }
 
       .chx1 {
         width: 45%;
-        // margin-top: -70px;
+        margin-top: -28px;
 
-        // background-color: aqua;
-
-        h1 {
+        h5 {
           color: var(--Text_Black, #000);
-          margin-top: 0px;
+          font-family: DM Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 4.8px;
+          text-transform: uppercase;
+        }
 
-          /* H2 */
+        h3 {
+          color: var(--Text_Black, #000);
+          margin-top: 30px;
           font-family: DM Serif Display;
           font-size: 56px;
           font-style: normal;
           font-weight: 400;
-          line-height: 64px; /* 114.286% */
+          line-height: 64px;
+          @media (max-width: 768px) {
+            color: var(--Text_Black, #000);
+            font-size: 40px;
+            font-style: normal;
+            line-height: 48px;
+          }
         }
         p {
           color: var(--Text_Black, #000);
-
-          /* Text_Big */
           font-family: DM Sans;
           font-size: 20px;
           font-style: normal;
           font-weight: 400;
-          line-height: 32px; /* 160% */
+          line-height: 32px;
           text-align: left;
-
           width: 338px;
           height: 230px;
           flex-shrink: 0;
+          margin-top: -34px;
         }
         .ex {
           width: 170px;
           height: 48px;
           flex-shrink: 0;
+          border-color: #bcc0ed;
+          cursor: pointer;
+          width: 170px;
+          height: 48px;
+          border-radius: 5px;
           background-color: transparent;
+          color: #434ccc;
+          font-family: "DM Sans";
+          font-weight: 700;
+          background-color: #f5f6fc;
 
           @media (max-width: 768px) {
             margin-top: 33px;
@@ -179,26 +201,24 @@
       .chx2 {
         display: grid;
         width: 50%;
-        gap: 8% 5%;
+        gap: 8% 8%;
         width: 80%;
         padding-top: 60px;
-
         grid-template-columns: repeat(2, 1fr);
 
         @media (max-width: 768px) {
-          grid-template-columns: 1fr; // Single column on mobile
-          width: 100%; // Make sure it takes the full width
+          height: auto;
+          grid-template-columns: 1fr;
+          width: 100%;
+          margin-bottom: 300px;
 
           .card {
-            width: 100%; // Ensure each card takes full width
-            // Any additional styling needed for mobile
+            width: 100%;
           }
         }
 
-        // background-color: #434ccc;
         .card {
           display: flex;
-          // background-color: aquamarine;
 
           .con {
             margin-left: 20px;
@@ -207,24 +227,20 @@
           h4 {
             margin-top: 0px;
             color: var(--Text_Black, #000);
-
-            /* H4 */
             font-family: DM Serif Display;
             font-size: 24px;
             font-style: normal;
             font-weight: 400;
-            line-height: 32px; /* 133.333% */
+            line-height: 32px;
           }
 
           p {
             color: var(--text-black-50, rgba(0, 0, 0, 0.5));
-
-            /* Text_Gray */
             font-family: DM Sans;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            line-height: 24px; /* 150% */
+            line-height: 24px;
             width: 270px;
             text-align: left;
             margin-top: -25px;
@@ -236,20 +252,17 @@
 
   @media (max-width: 768px) {
     #sub-1 {
-      height: auto; // Allow #sub-1 to expand to fit all its children
-
+      height: auto;
       .upper {
         p {
           color: var(--Text_White, #fff);
           text-align: center;
           width: 346px;
-
-          /* Text_Big */
           font-family: DM Sans;
           font-size: 20px;
           font-style: normal;
           font-weight: 400;
-          line-height: 32px; /* 160% */
+          line-height: 32px;
         }
       }
     }
