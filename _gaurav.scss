@@ -32,13 +32,13 @@
 }
 
 
-
 .gaurav {
   width: 100%;
- height: 1248px;
+ height: 1552px;
  flex-shrink: 0;
  margin:0%;
- 
+
+//background-color: #FFC105;
  background-color: #f5f6fc;
   }
 .outer{
@@ -53,7 +53,7 @@
 .map{
   position: relative;
   margin-top: 64px;
-  margin-bottom: 544px;
+  
   width: 1170px;
   height: 640px; 
   background-image: url(bitmap@2x.png);
@@ -81,10 +81,11 @@
     
 }
 .mainD{
+  margin-top: 63px;
   width: 1170px;
   height: 404px;
-  border: solid 2px;
-  border-color: black;
+  // border: solid 2px;
+  // border-color: black;
   display: flex;
  
 }
@@ -93,8 +94,8 @@
   padding-bottom: 0%;
   width: 835px;
   height: 404px;
-   border: solid 2px;
-   border-color: black;
+  //  border: solid 2px;
+  //  border-color: black;
 
   h2{
 
@@ -115,8 +116,8 @@ line-height: 64px; /* 114.286% */
   margin-top:0px;;
   width: 835px;
   height: 76px;
-  border: solid 2px;
-   border-color: black;
+  // border: solid 2px;
+  //  border-color: black;
    display:inline-block;
    
 }
@@ -127,8 +128,8 @@ line-height: 64px; /* 114.286% */
   width: 401px;
   height: 76px;
   flex-shrink: 0;
-  border: solid 2px;
-   border-color: black;
+  // border: solid 2px;
+  //  border-color: black;
    display:inline-block;
 
 }
@@ -138,8 +139,8 @@ line-height: 64px; /* 114.286% */
   height: 76px;
   margin-left:22.5px;;
   
-   border: solid 2px;
-   border-color: black;
+  //  border: solid 2px;
+  //  border-color: black;
 
 }
 .name2{
@@ -168,7 +169,7 @@ line-height: 24px; /* 150% */
   width: 834px;
   height: 172px;
   flex-shrink: 0;
-  border: solid 2px;
+ // border: solid 2px;
    
    
 }
@@ -207,8 +208,8 @@ line-height: 24px; /* 150% */
 .info1{
 
 height: 404px;
-border: solid 2px;
-border-color: black;
+// border: solid 2px;
+//border-color: black;
 margin: 0%;
 margin-left: 60px;
 width: 270px;
@@ -227,33 +228,34 @@ line-height: 64px; /* 114.286% */
 .lok{
   width: 270px;
   height: 49px;
+  margin-top: 36px;
   display: flex;
-  border: solid 2px;
-border-color: black;
+//   border: solid 2px;
+// border-color: black;
 }
 .call{
-  margin-top: 42px;
+  margin-top: 25px;
     width: 270px;
     height: 49px;
-    border: solid 2px;
-  border-color: black;
+  //   border: solid 2px;
+  // border-color: black;
   display: flex;
   
 }
 .masg{
-  margin-top: 42px;
+  margin-top: 25px;
   width: 270px;
   height: 49px;
-  border: solid 2px;
-border-color: black;
+//   border: solid 2px;
+// border-color: black;
 display: flex;
 }
 .symb{
   margin-top: 47px;
   width: 270px;
   height: 49px;
-  border: solid 2px;
-border-color: black;
+  // border: solid 2px;
+// border-color: black;
 }
 .lok2{
   width: 48px;
@@ -312,4 +314,182 @@ font-style: normal;
 font-weight: 700;
 line-height: 24px; /* 150% */
 }
+.allsymb{
+  margin-top: 47px;
+  width: 270px;
+  height: 49px;
+  flex-shrink: 0;
+  // border: solid 2px;
+  // border-color: black;
+  display: flex;
+  
+
+
+}
+.allsymb1{
+  //position: relative;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+
+}
+.f1{
+  position: absolute; 
+  width: 9px;
+  height: 18px;
+  flex-shrink: 0;
+  fill: #FFF;
+  padding-left: 1%;
+ padding-top: 0.7%;
+
+  
+   
+}
+.allsymb2{
+ // position: relative;
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  
+  
+  align-items: center;
+  justify-content: center;
+
+}
+
+.twe1{
+  position: absolute;
+  width: 18px;
+  height: 15px;
+  flex-shrink: 0;
+  fill: #FFF;
+  padding-top:7px;
+  padding-left: 7px;
+
+}
+.snap1{
+position: absolute;  
+width: 18px;
+height: 18px;
+flex-shrink: 0;
+fill:  #FFF;
+padding-top:7px;
+padding-left: 7px;
+
+justify-content: center;
+align-items: center;
+}
+
+//********************************************
+
+
+@media (max-width : 375px) {
+  #parent2 .gaurav .outer{
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  #parent2{
+    .gaurav{
+      .outer{
+        .map{
+          width: 347px;
+          height: 190px;            
+         // background-size: cover;
+         
+          .pointers{
+          margin-left: 138px;
+          margin-top: 59px;
+          .op1{
+            width: 72px;
+            height: 72px;
+            }
+          }
+        }
+        //***************
+        .mainD{
+          margin-top: 44px; 
+          width: 347px;
+          height:918px;
+          display: block;
+          .message1 {
+          width: 347px;
+          height: 438px;
+          
+          .h2{
+           font-size: 40px;
+           line-height: 48px; /* 120% */
+          }
+        
+        .colect{
+          width: 346px;
+          height: 140px;
+          margin: 0%;
+          display: block;
+                 
+
+          .name1{
+            width: 346px;
+            height: 76px;
+
+            .name2{
+              margin: 0%;
+              margin-top: 38px;
+              width: 346px;
+              height: 48px;
+            }
+          }
+          .email1{
+            width: 346px;
+            height: 76px;
+            margin: 0%;
+            .name2{
+              margin: 0%;
+              margin-top: 28px;
+              width: 346px;
+              height: 48px;
+            }
+          }
+        }
+
+        .textarea{
+          width: 347px;
+          height: 172px;
+         
+          .textarea1{
+            margin-top: 28px;
+            width: 347px;
+            height: 172px;
+
+          }
+        }
+        .bt1{
+          margin-top:70px;
+        }  
+        }
+        .info1{
+          width: 347px;
+          height: 404px;
+          margin: 0%;
+          margin-top: 150px;
+          .h2{
+            font-size: 40px;
+            line-height: 48px; /* 120% */
+          }
+        }
+
+
+
+
+      }
+      }
+    }
+  }
+}
+
+
 
