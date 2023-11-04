@@ -1,40 +1,177 @@
 @media (max-width:375px) {
   #parent {
     .mayank {
+      .line1 {
+        height: 2px;
+        opacity: 0.0974;
+        margin-bottom: 80px;
+
+      }
+    }
+  }
+
+  #parent {
+    .mayank {
       height: auto;
-      // width: 100%;
+
       .one {
         height: auto;
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
-        // background-color: #000000;
         width: 100%;
-        .mountain{
-          // width: 100%;
-          img{
-            max-width: 100%;
+        margin-top: 16px;
+        gap: 0px;
+
+        .mountain {
+          padding: 14px;
+          height: auto;
+
+          img {
+            max-width: 374px;
+            border-radius: 2px;
+          }
+        }
+
+        .right {
+          max-width: 374px;
+          padding: 14px;
+
+          .tantas {
+            margin-top: 28px;
+          }
+
+          .an {
+            margin-top: 19px;
+
+            h2 {
+              font-size: 40px;
+            }
+          }
+
+          .vix {
+            width: 346px;
+
+            p {
+              font-size: 20px;
+            }
+          }
+
+          .read {
+            width: 178px;
+            height: 48px;
+            margin-top: 54px;
+            
+
+            .my {
+              font-size: 14px;
+            }
           }
         }
       }
     }
   }
-  #parent{
-    .mayank{
-      .nihil{
+
+  #parent {
+    .mayank {
+      .line2 {
+        height: 2px;
+        opacity: 0.0974;
+        margin-top: 80px;
+
+      }
+    }
+  }
+
+  #parent {
+    .mayank {
+      .nihil {
+        width: 374px;
         height: auto;
-        padding-right: 0px;
-        grid-template-columns: repeat(1,1fr);
-        .right1{
-          // margin-left: 135px;
-          // margin-right: -135px;
-          width: 100%;
-          .ladder{
-            max-width: fit-content;
+        display: grid;
+        margin-bottom: 68px;
+        grid-template-columns: repeat(1, 1fr);
+
+
+
+        .left1 {
+          max-width: 374px;
+          padding: 14px;
+          height: auto;
+          margin-left: 0px;
+          margin-top: 0px;
+
+          .noluisse {
+            margin-top: 63px;
+
+            h5 {
+              font-size: 16px;
+            }
           }
+
+          .usu {
+            margin-top: 19px;
+
+            h2 {
+              font-size: 40px;
+            }
+          }
+
+          .level {
+            margin-bottom: 53px;
+
+            .epi {
+              width: 346px;
+              height: auto;
+
+              .epicuri {
+                width: 64px;
+                height: auto;
+                font-size: 20px;
+
+                #b1 {
+                  width: 34px;
+                  height: auto;
+                  font-size: 16px;
+                }
+              }
+            }
+
+            .co {
+              width: 346px;
+              border-radius: 5px;
+
+              #a1 {
+                width: 281px;
+                border-radius: 5px;
+              }
+
+              #a2 {
+                width: 234px;
+                border-radius: 5px;
+              }
+
+              #a3 {
+                width: 134px;
+                border-radius: 5px;
+              }
+            }
+          }
+        }
+
+        .right1 {
+          width: 100%;
+          padding: 14px;
+          height: auto;
+          margin-left: 0px;
+          margin-top: 20px;
+          margin-bottom: 25px;
+
         }
       }
     }
   }
 }
+
 .mayank {
   * {
     margin: 0;
@@ -42,46 +179,48 @@
     box-sizing: border-box;
   }
 
-  
-
   height: 1535px;
-  background-color: #fbfbff;
-  border: 2px solid black;
+  background-color: #f5f6fc;
+  border: 2px solid #f5f6fc;
+
+  .line1 {
+    height: 2px;
+    opacity: 0.0974;
+    background: #000;
+    margin-bottom: 143px;
+  }
 
   .one {
 
     margin: auto;
     margin-top: 143px;
-    width: 1170px;
+    width: 81%;
     height: 480px;
     display: grid;
-    gap: 125px;
-    grid-template-columns: repeat(2, 1fr);
-    // border: 1px solid black;
+    gap: 8%;
+    grid-template-columns: 50% 42%;
+    //  border: 1px solid black;
 
     .mountain {
       // border: 1px solid black;
-      width: 570px;
       height: 480px;
-      // margin-top: 143px;
-      //  margin-left: 135px;
       background-size: cover;
       border-radius: 2px;
+
+      img {
+        width: 100%;
+      }
+
     }
 
     .right {
       // border: 2px solid black;
-      width: 470px;
       height: 437px;
-      // margin-top: 191px;
-      // margin-left: 130px;
 
       .tantas {
-        width: 81px;
         height: 24px;
         color: var(--Text_Black, #000);
-        // border: 2px solid black;
-        // margin-left: 835px;
+        margin-top: 67px;
 
         h5 {
           // border: 2px solid black;
@@ -90,7 +229,6 @@
           font-style: normal;
           font-weight: 400;
           line-height: 24px;
-          /* 150% */
           letter-spacing: 4.8px;
           text-transform: uppercase;
         }
@@ -98,11 +236,8 @@
       }
 
       .an {
-        //border: 2px solid black;
-        width: 411px;
         height: 128px;
         color: var(--Text_Black, #000);
-        // margin-left: 835px;
         margin-top: 21px;
 
         h2 {
@@ -111,7 +246,7 @@
           font-style: normal;
           font-weight: 400;
           line-height: 64px;
-          /* 114.286% */
+
         }
       }
 
@@ -124,13 +259,11 @@
 
         p {
           color: var(--Text_Black, #000);
-          /* Text_Big */
           font-family: DM Sans;
           font-size: 22px;
           font-style: normal;
           font-weight: 400;
           line-height: 32px;
-          /* 160% */
         }
       }
 
@@ -138,16 +271,14 @@
         width: 170px;
         height: 48px;
         margin-top: 32px;
-        // margin-left: 878.5px;
         flex-shrink: 0;
         border-radius: 5px;
         background-color: #434CCC;
+        text-align: center;
 
         .my {
           padding-top: 13px;
-          padding-left: 43.5px;
           color: #FFF;
-          // background-color:#434CCC ;          text-align: center;
           font-family: DM Sans;
           font-size: 16px;
           font-style: normal;
@@ -176,20 +307,19 @@
 
   .nihil {
     height: 767px;
-    // border: 3px solid black;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
 
     .left1 {
       width: 470px;
       height: 470px;
-      margin-left: 135px;
+      margin-left: 120px;
       margin-top: 143px;
       // border: 2px solid black;
 
       .noluisse {
         color: var(--Text_Black, #000);
-        // border: 1px solid blue;
         width: 107px;
         height: 24px;
 
@@ -199,14 +329,12 @@
           font-style: normal;
           font-weight: 600;
           line-height: 24px;
-          /* 150% */
           letter-spacing: 4.8px;
           text-transform: uppercase;
         }
       }
 
       .usu {
-        // border: 1px solid blue;
         width: 342px;
         height: 128px;
         color: #000;
@@ -218,17 +346,14 @@
           font-style: normal;
           font-weight: 400;
           line-height: 64px;
-          /* 114.286% */
         }
       }
 
       .level {
         margin-top: 45px;
 
-        // border: 1px solid black;
         .epi {
           margin-top: 31px;
-
           display: flex;
           justify-content: space-between;
           align-items: center;
@@ -240,27 +365,22 @@
             font-style: normal;
             font-weight: 400;
             line-height: 32px;
-            /* 160% */
           }
 
           .b1 {
             color: var(--Text_Black, #000);
             text-align: right;
-
-            /* Text */
             font-family: DM Sans;
             font-size: 16px;
             font-style: normal;
             font-weight: 700;
             line-height: 24px;
-            /* 150% */
           }
         }
 
         .co {
           width: 470px;
           height: 10px;
-
           border-radius: 5px;
           background: #E9E9E9;
 
@@ -268,7 +388,6 @@
             width: 382px;
             height: 10px;
             background: #F1B505;
-            // border: 1px solid black;
             border-radius: 5px;
             margin-top: 7px;
           }
@@ -277,7 +396,6 @@
             width: 318px;
             height: 10px;
             background: #E94A47;
-            // border: 1px solid black;
             border-radius: 5px;
           }
 
@@ -285,7 +403,6 @@
             width: 182px;
             height: 10px;
             background: #428DFC;
-            // border: 1px solid black;
             border-radius: 5px;
           }
         }
@@ -293,14 +410,14 @@
     }
 
     .right1 {
-      width: 599px;
+      width: 559px;
       height: 510px;
-      margin-right: 135px;
+      margin-right: 50px;
       // border: 1px solid black;
       margin-top: 125px;
 
       .ladder {
-        // border: 1px solid black;
+        width: 100%;
       }
     }
   }

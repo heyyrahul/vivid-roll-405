@@ -989,63 +989,170 @@ input[type=text] {
 }
 
 @media (max-width: 375px) {
+  #parent .mayank .line1 {
+    height: 2px;
+    opacity: 0.0974;
+    margin-bottom: 80px;
+  }
   #parent .mayank {
     height: auto;
   }
   #parent .mayank .one {
     height: auto;
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
+    margin-top: 16px;
+    gap: 0px;
+  }
+  #parent .mayank .one .mountain {
+    padding: 14px;
+    height: auto;
   }
   #parent .mayank .one .mountain img {
-    max-width: 100%;
+    max-width: 374px;
+    border-radius: 2px;
+  }
+  #parent .mayank .one .right {
+    max-width: 374px;
+    padding: 14px;
+  }
+  #parent .mayank .one .right .tantas {
+    margin-top: 28px;
+  }
+  #parent .mayank .one .right .an {
+    margin-top: 19px;
+  }
+  #parent .mayank .one .right .an h2 {
+    font-size: 40px;
+  }
+  #parent .mayank .one .right .vix {
+    width: 346px;
+  }
+  #parent .mayank .one .right .vix p {
+    font-size: 20px;
+  }
+  #parent .mayank .one .right .read {
+    width: 178px;
+    height: 48px;
+    margin-top: 54px;
+  }
+  #parent .mayank .one .right .read .my {
+    font-size: 14px;
+  }
+  #parent .mayank .line2 {
+    height: 2px;
+    opacity: 0.0974;
+    margin-top: 80px;
   }
   #parent .mayank .nihil {
+    width: 374px;
     height: auto;
-    padding-right: 0px;
+    display: grid;
+    margin-bottom: 68px;
     grid-template-columns: repeat(1, 1fr);
+  }
+  #parent .mayank .nihil .left1 {
+    max-width: 374px;
+    padding: 14px;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  #parent .mayank .nihil .left1 .noluisse {
+    margin-top: 63px;
+  }
+  #parent .mayank .nihil .left1 .noluisse h5 {
+    font-size: 16px;
+  }
+  #parent .mayank .nihil .left1 .usu {
+    margin-top: 19px;
+  }
+  #parent .mayank .nihil .left1 .usu h2 {
+    font-size: 40px;
+  }
+  #parent .mayank .nihil .left1 .level {
+    margin-bottom: 53px;
+  }
+  #parent .mayank .nihil .left1 .level .epi {
+    width: 346px;
+    height: auto;
+  }
+  #parent .mayank .nihil .left1 .level .epi .epicuri {
+    width: 64px;
+    height: auto;
+    font-size: 20px;
+  }
+  #parent .mayank .nihil .left1 .level .epi .epicuri #b1 {
+    width: 34px;
+    height: auto;
+    font-size: 16px;
+  }
+  #parent .mayank .nihil .left1 .level .co {
+    width: 346px;
+    border-radius: 5px;
+  }
+  #parent .mayank .nihil .left1 .level .co #a1 {
+    width: 281px;
+    border-radius: 5px;
+  }
+  #parent .mayank .nihil .left1 .level .co #a2 {
+    width: 234px;
+    border-radius: 5px;
+  }
+  #parent .mayank .nihil .left1 .level .co #a3 {
+    width: 134px;
+    border-radius: 5px;
   }
   #parent .mayank .nihil .right1 {
     width: 100%;
-  }
-  #parent .mayank .nihil .right1 .ladder {
-    max-width: -moz-fit-content;
-    max-width: fit-content;
+    padding: 14px;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 25px;
   }
 }
 .mayank {
   height: 1535px;
-  background-color: #fbfbff;
-  border: 2px solid black;
+  background-color: #f5f6fc;
+  border: 2px solid #f5f6fc;
 }
 .mayank * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+.mayank .line1 {
+  height: 2px;
+  opacity: 0.0974;
+  background: #000;
+  margin-bottom: 143px;
+}
 .mayank .one {
   margin: auto;
   margin-top: 143px;
-  width: 1170px;
+  width: 81%;
   height: 480px;
   display: grid;
-  gap: 125px;
-  grid-template-columns: repeat(2, 1fr);
+  gap: 8%;
+  grid-template-columns: 50% 42%;
 }
 .mayank .one .mountain {
-  width: 570px;
   height: 480px;
   background-size: cover;
   border-radius: 2px;
 }
+.mayank .one .mountain img {
+  width: 100%;
+}
 .mayank .one .right {
-  width: 470px;
   height: 437px;
 }
 .mayank .one .right .tantas {
-  width: 81px;
   height: 24px;
   color: var(--Text_Black, #000);
+  margin-top: 67px;
 }
 .mayank .one .right .tantas h5 {
   font-family: DM Sans;
@@ -1053,12 +1160,10 @@ input[type=text] {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* 150% */
   letter-spacing: 4.8px;
   text-transform: uppercase;
 }
 .mayank .one .right .an {
-  width: 411px;
   height: 128px;
   color: var(--Text_Black, #000);
   margin-top: 21px;
@@ -1069,7 +1174,6 @@ input[type=text] {
   font-style: normal;
   font-weight: 400;
   line-height: 64px;
-  /* 114.286% */
 }
 .mayank .one .right .vix {
   width: 470px;
@@ -1079,13 +1183,11 @@ input[type=text] {
 }
 .mayank .one .right .vix p {
   color: var(--Text_Black, #000);
-  /* Text_Big */
   font-family: DM Sans;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  /* 160% */
 }
 .mayank .one .right .read {
   width: 170px;
@@ -1094,10 +1196,10 @@ input[type=text] {
   flex-shrink: 0;
   border-radius: 5px;
   background-color: #434CCC;
+  text-align: center;
 }
 .mayank .one .right .read .my {
   padding-top: 13px;
-  padding-left: 43.5px;
   color: #FFF;
   font-family: DM Sans;
   font-size: 16px;
@@ -1125,7 +1227,7 @@ input[type=text] {
 .mayank .nihil .left1 {
   width: 470px;
   height: 470px;
-  margin-left: 135px;
+  margin-left: 120px;
   margin-top: 143px;
 }
 .mayank .nihil .left1 .noluisse {
@@ -1139,7 +1241,6 @@ input[type=text] {
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
-  /* 150% */
   letter-spacing: 4.8px;
   text-transform: uppercase;
 }
@@ -1155,7 +1256,6 @@ input[type=text] {
   font-style: normal;
   font-weight: 400;
   line-height: 64px;
-  /* 114.286% */
 }
 .mayank .nihil .left1 .level {
   margin-top: 45px;
@@ -1173,18 +1273,15 @@ input[type=text] {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  /* 160% */
 }
 .mayank .nihil .left1 .level .epi .b1 {
   color: var(--Text_Black, #000);
   text-align: right;
-  /* Text */
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  /* 150% */
 }
 .mayank .nihil .left1 .level .co {
   width: 470px;
@@ -1212,11 +1309,15 @@ input[type=text] {
   border-radius: 5px;
 }
 .mayank .nihil .right1 {
-  width: 599px;
+  width: 559px;
   height: 510px;
-  margin-right: 135px;
+  margin-right: 50px;
   margin-top: 125px;
 }
+.mayank .nihil .right1 .ladder {
+  width: 100%;
+}
+
 .anusha {
   height: 752px;
 }
