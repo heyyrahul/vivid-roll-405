@@ -93,7 +93,11 @@ body {
   margin-top: 10px;
 }
 
-@media (max-width: 768px) {
+.needtosee {
+  display: none;
+}
+
+@media (max-width: 375px) {
   #parent .rahul {
     height: auto;
   }
@@ -114,6 +118,13 @@ body {
   #parent .rahul .about nav .links {
     justify-content: end;
     justify-items: end;
+    align-items: center;
+  }
+  #parent .rahul .about nav .links :hover {
+    display: none;
+  }
+  #parent .rahul .about nav .links :hover #hoverlinks {
+    display: block;
   }
   #parent .rahul .about nav .links a {
     display: none;
@@ -126,12 +137,22 @@ body {
     flex-shrink: 0;
     display: block;
     position: absolute;
+    margin-top: 15px;
   }
   #parent .rahul .standv {
     margin-bottom: -300px;
     padding: 0px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
+  }
+  #parent .rahul .standv .contentdebet {
+    padding-left: 10px;
+  }
+  #parent .rahul .standv .contentdebet .headcheck {
+    font-size: 50px;
+  }
+  #parent .rahul .standv .contentdebet .quo .needtosee {
+    display: block;
   }
   #parent .rahul .standv .contentdebet .subcontent {
     display: flex;
@@ -156,6 +177,7 @@ body {
   #parent .house {
     grid-template-columns: repeat(1, 1fr);
     margin: 0px;
+    padding: 0px 10px;
   }
   #parent .shakehands {
     height: -moz-fit-content;
@@ -163,7 +185,15 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
   #parent .handimg {
-    margin-left: -200px;
+    margin-left: -120px;
+    margin-bottom: 0px;
+  }
+  #parent .handimg img {
+    width: 100%;
+  }
+  #parent .handcontent {
+    margin-top: 0px;
+    padding: 10px;
   }
   #parent .handcontent .deterr {
     font-size: 43px;
@@ -179,6 +209,9 @@ body {
   }
   #parent .handcontent .mazim .shouldhide {
     display: none;
+  }
+  #parent .handcontent .learnkaro {
+    margin-left: 10px;
   }
 }
 .standv {
@@ -401,6 +434,27 @@ body {
   font-family: "DM Sans";
   font-weight: 700;
   background-color: #f5f6fc;
+}
+
+#hoverlinks {
+  width: 100px;
+  height: 180px;
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  padding: 10px 0px 0px 20px;
+  border-radius: 8px;
+  display: none;
+}
+#hoverlinks a {
+  text-decoration: none;
+  color: #434ccc;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .asif {
@@ -961,7 +1015,7 @@ input[type=text] {
 }
 .mayank {
   height: 1535px;
-  background-color: #929bce;
+  background-color: #fbfbff;
   border: 2px solid black;
 }
 .mayank * {
@@ -977,17 +1031,14 @@ input[type=text] {
   display: grid;
   gap: 125px;
   grid-template-columns: repeat(2, 1fr);
-  border: 1px solid black;
 }
 .mayank .one .mountain {
-  border: 1px solid black;
   width: 570px;
   height: 480px;
   background-size: cover;
   border-radius: 2px;
 }
 .mayank .one .right {
-  border: 2px solid black;
   width: 470px;
   height: 437px;
 }
@@ -1068,7 +1119,6 @@ input[type=text] {
 }
 .mayank .nihil {
   height: 767px;
-  border: 3px solid black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -1077,7 +1127,6 @@ input[type=text] {
   height: 470px;
   margin-left: 135px;
   margin-top: 143px;
-  border: 2px solid black;
 }
 .mayank .nihil .left1 .noluisse {
   color: var(--Text_Black, #000);
@@ -1168,10 +1217,6 @@ input[type=text] {
   margin-right: 135px;
   margin-top: 125px;
 }
-.mayank .nihil .right1 .ladder {
-  border: 1px solid black;
-}
-
 .anusha {
   height: 752px;
 }
