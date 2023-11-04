@@ -85,8 +85,11 @@
     margin-top: 10px;
   }
 }
+.needtosee{
+  display: none;
+}
+@media (max-width: 375px) {
 
-@media (max-width: 768px) {
     #parent{
       .rahul{
         height: auto;
@@ -108,11 +111,24 @@
       width: 62px;
       height: 32px;
     }
+   
+
   }
 
   #parent .rahul .about nav .links {
     justify-content: end;
     justify-items: end;
+    // border: 1px solid;
+    align-items: center;
+  :hover{
+    display: none;
+    #hoverlinks{
+      display: block;
+    }
+    
+  }
+  
+   
     a {
       display: none;
     }
@@ -124,7 +140,10 @@
       flex-shrink: 0;
       display: block;
       position: absolute;
+      margin-top: 15px;
+    
     }
+    
   }
     #parent{
       .rahul{
@@ -135,6 +154,16 @@
           grid-template-columns: repeat(1, 1fr);
           grid-template-rows: repeat(2,1fr);
           .contentdebet{
+            padding-left: 10px;
+            .headcheck{
+              font-size: 50px;
+            }
+            .quo{
+        
+              .needtosee{
+                display: block;
+              }
+            }
             .subcontent{
               display: flex;
               flex-direction: column;
@@ -169,6 +198,7 @@
       .house{
         grid-template-columns: repeat(1,1fr);
         margin: 0px;
+        padding: 0px 10px;
       }
     }
     #parent{
@@ -178,9 +208,18 @@
         grid-template-columns: repeat(1,1fr);
       }
       .handimg{
-        margin-left: -200px;
+      //  padding-left: 15px;
+       
+        margin-left: -120px;
+        margin-bottom: 0px;
+        img{
+          width: 100%;
+        
+        }
       }
       .handcontent{
+        margin-top: 0px;
+        padding: 10px;
         .deterr{
           font-size: 43px;
         }
@@ -195,6 +234,9 @@
         .shouldhide{
           display: none;
         }
+        }
+        .learnkaro{
+          margin-left: 10px;
         }
       }
     }
@@ -335,7 +377,7 @@
         font-size: 16px;
         font-family: "DM Sans";
         font-weight: 700;
-        color: rgba(0, 0, 0, 1);
+        color: rgba(0, 0, 0, 1);  
         text-align: left;
         height: 24px;
       }
@@ -432,4 +474,26 @@ border-radius: 5px;
   
 }
   }
+}
+#hoverlinks{
+  width: 100px;
+  height: 180px;
+  // background-color: #f5f6fc;
+  background-color: white;
+  position: absolute;
+right: 0px;
+display: flex;
+flex-direction: column;
+gap: 27px;
+padding: 10px 0px 0px 20px;
+border-radius: 8px;
+display: none;
+a{
+  text-decoration: none;
+  color:#434ccc;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+
+}
 }
