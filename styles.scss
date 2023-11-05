@@ -10,6 +10,8 @@ $bgclr: #434ccc;
 body {
   margin: 0px;
   padding: 0px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 @import "rahul.scss";
