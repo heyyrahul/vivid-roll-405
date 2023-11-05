@@ -234,7 +234,6 @@ input[type="text"] {
   font-style: normal;
   font-weight: 700;
   line-height: 24px; /* 150% */
-  cursor: pointer;
 }
 
 .info1 {
@@ -357,7 +356,6 @@ input[type="text"] {
   flex-shrink: 0;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
 }
 .f1 {
   position: absolute;
@@ -367,6 +365,7 @@ input[type="text"] {
   fill: #fff;
   padding-left: 1%;
   padding-top: 0.7%;
+  cursor: pointer;
 }
 .allsymb2 {
   // position: relative;
@@ -378,7 +377,6 @@ input[type="text"] {
 
   align-items: center;
   justify-content: center;
-  cursor: pointer;
 }
 
 .twe1 {

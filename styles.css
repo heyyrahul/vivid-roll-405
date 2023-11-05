@@ -647,6 +647,7 @@ body {
     font-size: 40px;
     font-style: normal;
     line-height: 48px;
+    width: 171px;
   }
 }
 .asif .sub2 .wrap .chx1 p {
@@ -906,16 +907,16 @@ body {
   flex-shrink: 0;
   margin-top: 28px;
   border-radius: 5px;
-  border: 1px solid #DADADA;
-  background: #FFF;
+  border: 1px solid #dadada;
+  background: #fff;
 }
 
 ::-moz-placeholder {
-  color: #DADADA;
+  color: #dadada;
 }
 
 ::placeholder {
-  color: #DADADA;
+  color: #dadada;
 }
 
 input[type=text] {
@@ -940,8 +941,8 @@ input[type=text] {
   height: 144px;
   flex-shrink: 0;
   border-radius: 5px;
-  border: 1px solid #DADADA;
-  background: #FFF;
+  border: 1px solid #dadada;
+  background: #fff;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -955,15 +956,16 @@ input[type=text] {
   flex-shrink: 0;
   margin-top: 45px;
   border-radius: 5px;
-  background: var(--Primary_1, #434CCC);
-  border-color: #434CCC;
-  color: #FFF;
+  background: var(--Primary_1, #434ccc);
+  border-color: #434ccc;
+  color: #fff;
   text-align: center;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px; /* 150% */
+  cursor: pointer;
 }
 
 .info1 {
@@ -1020,7 +1022,7 @@ input[type=text] {
   margin-left: 22px;
   width: 200px;
   color: var(--text-black-50, rgba(0, 0, 0, 0.5));
-  fill: linear-gradient(225deg, #FFC105 0%, #737CFF 100%);
+  fill: linear-gradient(225deg, #ffc105 0%, #737cff 100%);
   /* Text_Gray */
   font-family: DM Sans;
   font-size: 16px;
@@ -1033,7 +1035,7 @@ input[type=text] {
   width: 48px;
   height: 48px;
   flex-shrink: 0;
-  fill: linear-gradient(225deg, #FFC105 0%, #737CFF 100%);
+  fill: linear-gradient(225deg, #ffc105 0%, #737cff 100%);
 }
 
 .num1 {
@@ -1053,7 +1055,7 @@ input[type=text] {
   width: 48px;
   height: 48px;
   flex-shrink: 0;
-  fill: linear-gradient(225deg, #FFC105 0%, #737CFF 100%);
+  fill: linear-gradient(225deg, #ffc105 0%, #737cff 100%);
 }
 
 .masg3 {
@@ -1084,6 +1086,7 @@ input[type=text] {
   flex-shrink: 0;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .f1 {
@@ -1091,7 +1094,7 @@ input[type=text] {
   width: 9px;
   height: 18px;
   flex-shrink: 0;
-  fill: #FFF;
+  fill: #fff;
   padding-left: 1%;
   padding-top: 0.7%;
 }
@@ -1104,6 +1107,7 @@ input[type=text] {
   flex-shrink: 0;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .twe1 {
@@ -1111,7 +1115,7 @@ input[type=text] {
   width: 18px;
   height: 15px;
   flex-shrink: 0;
-  fill: #FFF;
+  fill: #fff;
   padding-top: 7px;
   padding-left: 7px;
 }
@@ -1121,7 +1125,7 @@ input[type=text] {
   width: 18px;
   height: 18px;
   flex-shrink: 0;
-  fill: #FFF;
+  fill: #fff;
   padding-top: 7px;
   padding-left: 7px;
   justify-content: center;
@@ -1543,7 +1547,7 @@ input[type=text] {
   height: 752px;
 }
 
-@media screen and (min-width: 390px) and (max-width: 769px) {
+@media (max-width: 768px) {
   body {
     padding: 0%;
     margin: 0%;
@@ -1558,13 +1562,7 @@ input[type=text] {
   margin: 0%;
 }
 
-@media screen and (min-width: 970px) and (max-width: 1330px) {
-  .footer-first {
-    width: 100%;
-    height: 302px;
-  }
-}
-@media screen and (min-width: 390px) and (max-width: 769px) {
+@media (max-width: 768px) {
   .footer-first {
     width: 100%;
     height: 480px;
@@ -1603,6 +1601,7 @@ input[type=text] {
 }
 .footer-sub .social-media > img {
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .fine {
@@ -1665,10 +1664,10 @@ h4 {
   line-height: 24px;
 }
 
-@media screen and (min-width: 390px) and (max-width: 769px) {
+@media (max-width: 768px) {
   .footer-second {
     width: 100%;
-    height: 720px;
+    height: auto;
     padding: 0%;
     margin: 0%;
     background-color: #f5f5f5;
@@ -1717,18 +1716,20 @@ h4 {
   height: 24px;
 }
 
-@media screen and (min-width: 390px) and (max-width: 769px) {
+@media (max-width: 768px) {
   .end {
-    width: 100%;
-    height: auto;
-    margin-top: 0px;
     display: flex;
     flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-top: 0px;
     padding-left: 20px;
     padding-top: 20px;
   }
   .end :nth-child(2) {
     margin-top: -6px;
+    width: 270px;
+    padding-bottom: 5%;
   }
   .end p {
     color: rgb(168, 169, 173);
@@ -1799,57 +1800,10 @@ h4 {
   margin-right: 30px;
 }
 
-@media screen and (min-width: 970px) and (max-width: 1130px) {
-  .child-footer-2 #button-1 {
-    width: 90px;
-    height: 40px;
-    color: #fff;
-    background-color: #434ccc;
-    text-align: center;
-    font-family: DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    border: none;
-    margin-left: 5px;
-    border-radius: 5px;
-  }
-  .child-footer-2 input {
-    margin-top: 25%;
-    border-radius: 5px;
-    border: 1px solid #dadada;
-    background: #fff;
-    width: 170px;
-    height: 40px;
-  }
-  .child-footer-1 {
-    width: 45%;
-    padding-top: 3.2%;
-  }
-  .child-footer-1 h5 {
-    color: #000;
-    font-family: DM Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 340;
-    line-height: 20px;
-    letter-spacing: 4.2px;
-    text-transform: uppercase;
-  }
-  .child-footer-1 h2 {
-    color: var(--Text_Black, #000);
-    font-family: DM Serif Display;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 340;
-    line-height: 50px;
-  }
-}
-@media screen and (min-width: 390px) and (max-width: 769px) {
+@media (max-width: 768px) {
   #child-footer {
     display: block;
-    margin-left: 11%;
+    margin-left: 8%;
   }
   .child-footer-1 {
     width: 85%;
@@ -1866,30 +1820,27 @@ h4 {
     text-transform: uppercase;
   }
   .child-footer-1 h2 {
+    width: 209px;
     color: var(--Text_Black, #000);
     font-family: DM Serif Display;
     font-size: 40px;
     font-style: normal;
     font-weight: 200;
     line-height: 40px;
+    text-align: justify;
   }
   .child-footer-2 {
-    width: 90%;
+    width: 100%;
   }
   .child-footer-2 input {
-    margin-top: 10%;
-    margin-left: 0%;
-    padding-left: 15px;
     border-radius: 5px;
     border: 1px solid #dadada;
     background: #fff;
-    width: 95%;
+    width: 300px;
     height: 48px;
-    margin-bottom: 5%;
+    margin: auto;
   }
   .child-footer-2 #button-1 {
-    width: 50%;
-    height: 48px;
     color: #fff;
     background-color: #434ccc;
     text-align: center;
@@ -1900,6 +1851,9 @@ h4 {
     line-height: 24px;
     border: none;
     border-radius: 5px;
+    width: 170px;
+    height: 48px;
+    margin-top: 16px;
   }
 }
 .divide {
