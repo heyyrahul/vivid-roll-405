@@ -16,6 +16,18 @@
     align-items: center;
 
     .logo {
+      cursor: pointer;
+      width: 150px;
+      height: 50px;
+
+    ;
+
+      img{
+        // position: absolute;
+        top: 20px;
+        left: 0px;
+        width: 150px;
+      }
       h3 {
         font-size: 40px;
         color: #fff;
@@ -31,6 +43,7 @@
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
+      margin-top: 40px;
       a {
         text-decoration: none;
         color: #fff;
@@ -51,9 +64,18 @@
         font-weight: 700;
         cursor: pointer;
       }
-      svg {
+      .material-symbols-outlined{
+        color: white;
+        font-size: 36px;
+        // position: absolute;
+        // top: 40px;
+        margin-top: -20px;
         display: none;
+        
       }
+      // svg {
+      //   display: none;
+      // }
     }
   }
 }
@@ -110,28 +132,48 @@
     .logo {
       width: 62px;
       height: 32px;
+      position: absolute;
     }
    
 
   }
-
+  #parent .rahul .about nav .links>a{
+    display: none;
+  }
   #parent .rahul .about nav .links {
     justify-content: end;
     justify-items: end;
     // border: 1px solid;
     align-items: center;
-  :hover{
-    display: none;
-    #hoverlinks{
-      display: block;
-    }
-    
+ 
+  .material-symbols-outlined{
+    display: block;
   }
+   .material-symbols-outlined:hover ~ #hoverlinks{
+    // display: block;
+    display: flex;
+  //   gap: 27px;
+  // padding: 10px 0px 0px 20px;
+  // border-radius: 8px;
+   }
+   #hoverlinks{
+    width: 100px;
+    height: 180px;
+    // background-color: #f5f6fc;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+  right: 50px;
+  top: 80px;
   
-   
-    a {
-      display: none;
-    }
+  // display: flex;
+  flex-direction: column;
+  gap: 27px;
+  padding: 10px 0px 0px 20px;
+  border-radius: 8px;
+   }
+    // a {
+    //   display: none;
+    // }
     button {
       display: none;
     }
@@ -187,9 +229,13 @@
         height: auto;
         .onetwo{
           margin-left: -50px;
-         font-size: 45px;
+         font-size: 42px;
+         margin-bottom: 20px;
+         margin-top: 0px;
+       padding: 0px 5px;
         }
         .tunekya{
+          margin-top: 0px;
           br{
             display: none;
           }
@@ -221,7 +267,7 @@
         margin-top: 0px;
         padding: 10px;
         .deterr{
-          font-size: 43px;
+          font-size: 42px;
         }
         .mazim{
         font-size: 18px;
@@ -481,7 +527,9 @@ border-radius: 5px;
   // background-color: #f5f6fc;
   background-color: white;
   position: absolute;
-right: 0px;
+right: 10px;
+top: 5px;
+
 display: flex;
 flex-direction: column;
 gap: 27px;

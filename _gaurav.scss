@@ -8,12 +8,36 @@
   #parent2 .gaurav .about {
     padding: 0px 14px;
   }
+  #parent2 .gaurav .about nav .links>a{
+    display: none;
+  }
   #parent2 .gaurav .about nav .links {
     justify-content: end;
     justify-items: end;
-    a {
-      display: none;
+    .material-symbols-outlined{
+      display: block;
     }
+    .material-symbols-outlined:hover ~ #hoverlinkss{
+      display: flex;
+    }
+    #hoverlinkss{
+      width: 100px;
+      height: 180px;
+      // background-color: #f5f6fc;
+      background-color: rgb(255, 255, 255);
+      position: absolute;
+    right: 50px;
+    top: 80px;
+    
+    // display: flex;
+    flex-direction: column;
+    gap: 27px;
+    padding: 10px 0px 0px 20px;
+    border-radius: 8px;
+     }
+    // a {
+    //   display: none;
+    // }
     button {
       display: none;
     }
@@ -29,6 +53,30 @@
   }
 
 
+}
+#hoverlinkss{
+  width: 100px;
+  height: 180px;
+  // background-color: #f5f6fc;
+  background-color: white;
+  position: absolute;
+right: 10px;
+top: 5px;
+
+display: flex;
+flex-direction: column;
+gap: 27px;
+padding: 10px 0px 0px 20px;
+border-radius: 8px;
+display: none;
+a{
+  text-decoration: none;
+  color:#434ccc;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+
+}
 }
 
 

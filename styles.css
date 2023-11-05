@@ -27,6 +27,16 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.about nav .logo {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+}
+.about nav .logo img {
+  top: 20px;
+  left: 0px;
+  width: 150px;
+}
 .about nav .logo h3 {
   font-size: 40px;
   color: #fff;
@@ -41,6 +51,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin-top: 40px;
 }
 .about nav .links a {
   text-decoration: none;
@@ -62,7 +73,10 @@ body {
   font-weight: 700;
   cursor: pointer;
 }
-.about nav .links svg {
+.about nav .links .material-symbols-outlined {
+  color: white;
+  font-size: 36px;
+  margin-top: -20px;
   display: none;
 }
 
@@ -114,20 +128,33 @@ body {
   nav .logo {
     width: 62px;
     height: 32px;
+    position: absolute;
+  }
+  #parent .rahul .about nav .links > a {
+    display: none;
   }
   #parent .rahul .about nav .links {
     justify-content: end;
     justify-items: end;
     align-items: center;
   }
-  #parent .rahul .about nav .links :hover {
-    display: none;
-  }
-  #parent .rahul .about nav .links :hover #hoverlinks {
+  #parent .rahul .about nav .links .material-symbols-outlined {
     display: block;
   }
-  #parent .rahul .about nav .links a {
-    display: none;
+  #parent .rahul .about nav .links .material-symbols-outlined:hover ~ #hoverlinks {
+    display: flex;
+  }
+  #parent .rahul .about nav .links #hoverlinks {
+    width: 100px;
+    height: 180px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 50px;
+    top: 80px;
+    flex-direction: column;
+    gap: 27px;
+    padding: 10px 0px 0px 20px;
+    border-radius: 8px;
   }
   #parent .rahul .about nav .links button {
     display: none;
@@ -169,7 +196,13 @@ body {
   }
   #parent .buscar .onetwo {
     margin-left: -50px;
-    font-size: 45px;
+    font-size: 42px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding: 0px 5px;
+  }
+  #parent .buscar .tunekya {
+    margin-top: 0px;
   }
   #parent .buscar .tunekya br {
     display: none;
@@ -196,7 +229,7 @@ body {
     padding: 10px;
   }
   #parent .handcontent .deterr {
-    font-size: 43px;
+    font-size: 42px;
   }
   #parent .handcontent .mazim {
     font-size: 18px;
@@ -441,7 +474,8 @@ body {
   height: 180px;
   background-color: white;
   position: absolute;
-  right: 0px;
+  right: 10px;
+  top: 5px;
   display: flex;
   flex-direction: column;
   gap: 27px;
@@ -717,12 +751,30 @@ body {
   #parent2 .gaurav .about {
     padding: 0px 14px;
   }
+  #parent2 .gaurav .about nav .links > a {
+    display: none;
+  }
   #parent2 .gaurav .about nav .links {
     justify-content: end;
     justify-items: end;
   }
-  #parent2 .gaurav .about nav .links a {
-    display: none;
+  #parent2 .gaurav .about nav .links .material-symbols-outlined {
+    display: block;
+  }
+  #parent2 .gaurav .about nav .links .material-symbols-outlined:hover ~ #hoverlinkss {
+    display: flex;
+  }
+  #parent2 .gaurav .about nav .links #hoverlinkss {
+    width: 100px;
+    height: 180px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 50px;
+    top: 80px;
+    flex-direction: column;
+    gap: 27px;
+    padding: 10px 0px 0px 20px;
+    border-radius: 8px;
   }
   #parent2 .gaurav .about nav .links button {
     display: none;
@@ -737,6 +789,28 @@ body {
     text-align: left;
   }
 }
+#hoverlinkss {
+  width: 100px;
+  height: 180px;
+  background-color: white;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  padding: 10px 0px 0px 20px;
+  border-radius: 8px;
+  display: none;
+}
+#hoverlinkss a {
+  text-decoration: none;
+  color: #434ccc;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .gaurav {
   width: 100%;
   height: 1552px;
