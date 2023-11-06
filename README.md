@@ -26,6 +26,22 @@ To get started with this template, you need to have a basic understanding of HTM
 4. Use a SASS compiler to compile the `.scss` files to `.css` or edit the CSS directly.
 5. Open the `index.html` file in your web browser to view the template.
 
+
+## Screenshots
+
+### Home Page
+
+![Home Page](https://github-production-user-asset-6210df.s3.amazonaws.com/79692865/280677124-77406c58-9027-492e-b897-31e1ebe14544.png)
+
+This is the screenshot of the home page of my website. It showcases the main content and design of the homepage.
+
+### Contact Page
+
+![Contact Page](https://raw.githubusercontent.com/heyyrahul/vivid-roll-405/assets/79692865/a2f3f933-9ece-459e-bd8f-1216f17b310a)
+
+This is the screenshot of the contact page. You can reach out to us th
+
+
  <a href="https://vivid-roll-405.netlify.app/">#FIGMA PROJECT SCREENSHOTS </a>
  <br>
 #ABOUT
