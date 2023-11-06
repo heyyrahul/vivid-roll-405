@@ -26,7 +26,13 @@ To get started with this template, you need to have a basic understanding of HTM
 4. Use a SASS compiler to compile the `.scss` files to `.css` or edit the CSS directly.
 5. Open the `index.html` file in your web browser to view the template.
 
+<br>
 
+#PROJECT LOGO
+<br>
+![mainlogo](https://github.com/heyyrahul/vivid-roll-405/assets/79692865/2ac13001-ce34-4a23-8e01-c54b9df326e4)
+
+  
 ## Screenshots
 
 ### Home Page
