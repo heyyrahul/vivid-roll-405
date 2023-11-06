@@ -26,7 +26,8 @@ To get started with this template, you need to have a basic understanding of HTM
 4. Use a SASS compiler to compile the `.scss` files to `.css` or edit the CSS directly.
 5. Open the `index.html` file in your web browser to view the template.
 
-<a>Figma Project<a/>
+ <a href="https://vivid-roll-405.netlify.app/">#FIGMA PROJECT SCREENSHOTS </a>
+ <br>
 #ABOUT
 <img src="https://github.com/heyyrahul/vivid-roll-405/assets/79692865/77406c58-9027-492e-b897-31e1ebe14544">
 
