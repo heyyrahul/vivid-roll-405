@@ -33,7 +33,6 @@ To get started with this template, you need to have a basic understanding of HTM
 
 ![Home Page](https://github-production-user-asset-6210df.s3.amazonaws.com/79692865/280677124-77406c58-9027-492e-b897-31e1ebe14544.png)
 
-This is the screenshot of the home page of my website. It showcases the main content and design of the homepage.
 
 ### Contact Page
 
