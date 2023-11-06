@@ -27,9 +27,11 @@ To get started with this template, you need to have a basic understanding of HTM
 5. Open the `index.html` file in your web browser to view the template.
 
 <a>Figma Project<a/>
--ABOUT
+#ABOUT
 <img src="https://github.com/heyyrahul/vivid-roll-405/assets/79692865/77406c58-9027-492e-b897-31e1ebe14544">
 
+#CONTACT
+<img src="https://github.com/heyyrahul/vivid-roll-405/assets/79692865/a2f3f933-9ece-459e-bd8f-1216f17b310a"> 
 
 
 
