@@ -39,16 +39,6 @@ This is the screenshot of the home page of my website. It showcases the main con
 
 ![Contact Page](https://raw.githubusercontent.com/heyyrahul/vivid-roll-405/assets/79692865/a2f3f933-9ece-459e-bd8f-1216f17b310a)
 
-This is the screenshot of the contact page. You can reach out to us th
-
-
- <a href="https://vivid-roll-405.netlify.app/">#FIGMA PROJECT SCREENSHOTS </a>
- <br>
-#ABOUT
-<img src="https://github.com/heyyrahul/vivid-roll-405/assets/79692865/77406c58-9027-492e-b897-31e1ebe14544">
-
-#CONTACT
-<img src="https://github.com/heyyrahul/vivid-roll-405/assets/79692865/a2f3f933-9ece-459e-bd8f-1216f17b310a"> 
 
 
 
