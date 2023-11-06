@@ -26,4 +26,3 @@ To get started with this template, you need to have a basic understanding of HTM
 4. Use a SASS compiler to compile the `.scss` files to `.css` or edit the CSS directly.
 5. Open the `index.html` file in your web browser to view the template.
 
-## File Structure
